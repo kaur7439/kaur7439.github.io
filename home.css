@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    font-family: "monospace", "Comic Sans MS", serif;
+    color: lightblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+body {
+    background-color: lightpink;
+    background-image: linear-gradient(-90deg, lightcyan, lightpink)
+}
+
+
+.topnav{
+    background-color:lightcyan;
+    overflow:hidden;
+}
+
+.topnav a{
+    color:black;
+    font-size:17px;
+    padding: 14px 16px; /*generates space around the topnav...can be used for dividers as well*/
+    text-decoration:none;
+}
+
+/*Change the color of links on hover*/
+.topnav a:hover{
+    background-color:#dddddd;
+    color: black;
+}
+
+/*Add color to the active (current) link*/
+.topnav a.active{
+    background-color: purple;
+    color: white;
+}
+
+"border: 2px solid Tomato;">
+
+                           table {
+                               font-family: arial, sans-serif;
+                               border-collapse: collapse;
+                               width: 100%;
+                           }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+img {
+    border-radius: 8px;
+}
+
+
+
